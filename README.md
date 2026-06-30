@@ -79,7 +79,7 @@ Docs at `http://localhost:8000/docs`
 
 ## Google Technologies Used
 
-- **Gemini 2.0 Flash** — Vision analysis + Chat + Mayor NL queries
+- **Gemini 2.5 Flash** — Vision analysis + Chat + Mayor NL queries
 - **Google Maps API** — Location, geocoding, map display
 - **Firebase Auth** — User authentication
 - **Firestore** — Issue database
