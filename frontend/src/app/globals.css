@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0A0F1E;
+  --surface: #111827;
+  --card: #1A2236;
+  --border: #1E2D45;
+  --accent: #3B82F6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: var(--bg);
+  color: #F1F5F9;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* Priority badge colors */
+.badge-critical { background: #EF444420; color: #EF4444; border: 1px solid #EF444440; }
+.badge-high     { background: #F59E0B20; color: #F59E0B; border: 1px solid #F59E0B40; }
+.badge-medium   { background: #3B82F620; color: #3B82F6; border: 1px solid #3B82F640; }
+.badge-low      { background: #10B98120; color: #10B981; border: 1px solid #10B98140; }
+
+/* Map marker pulse */
+.marker-pulse {
+  animation: markerPulse 2s infinite;
+}
+@keyframes markerPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.8; }
+}
+
+/* Pipeline step animation */
+.pipeline-active {
+  animation: pipelineGlow 1.5s ease-in-out infinite;
+}
+@keyframes pipelineGlow {
+  0%, 100% { box-shadow: 0 0 0 0 #3B82F640; }
+  50% { box-shadow: 0 0 0 8px #3B82F600; }
+}
