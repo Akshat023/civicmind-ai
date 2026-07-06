@@ -65,6 +65,17 @@ pip install -r requirements.txt
 python main.py
 ```
 
+Set up and run the frontend
+
+Open a new terminal and run:
+
+```bash
+cd frontend
+
+npm install
+npm run dev
+```
+
 API runs at `http://localhost:8000`
 Docs at `http://localhost:8000/docs`
 
