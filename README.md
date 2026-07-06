@@ -116,3 +116,12 @@ Docs at `http://localhost:8000/docs`
 *The Routing Agent assigns it to the Public Works Department.*
 *The Mayor Dashboard immediately shows the new hotspot on the city map.*
 *The citizen asks the AI: 'When will this be fixed?' — and gets an instant, informed reply."*
+
+## 👨‍💻 Author
+
+**Akshat** — AI/ML & Full-Stack Development
+
+Built as an hackathon project
+
+- GitHub: [@Akshat023](https://github.com/Akshat023)
+- Project: [civicmind-ai](https://github.com/Akshat023/civicmind-ai)
