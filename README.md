@@ -117,6 +117,8 @@ Docs at `http://localhost:8000/docs`
 *The Mayor Dashboard immediately shows the new hotspot on the city map.*
 *The citizen asks the AI: 'When will this be fixed?' — and gets an instant, informed reply."*
 
+---
+
 ## 👨‍💻 Author
 
 **Akshat** — AI/ML & Full-Stack Development
