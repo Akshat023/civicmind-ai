@@ -4,6 +4,12 @@
 > An autonomous multi-agent platform that detects, validates, prioritizes, routes, and monitors civic issues in real time.
 
 ---
+## 📸 Demo
+
+![Dashboard Screenshot](assets/dashboard.png)
+
+
+
 
 ## Architecture
 
