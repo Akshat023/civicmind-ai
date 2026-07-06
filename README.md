@@ -6,7 +6,7 @@
 ---
 ## 📸 Demo
 
-![Dashboard Screenshot](assets/dashboard.png)
+![Dashboard Screenshot](assets/dashboard.png)(assets/mayorpage.png)(assets/issues.png)
 
 
 
